@@ -9,7 +9,7 @@ import re
 import pymongo
 from datetime import datetime
 import threading
-# mongoclient = pymongo.MongoClient("mongodb+srv://Mycle:Piterpiter@cluster0-dqqoe.mongodb.net/test?retryWrites=true&w=majority")
+# mongoclient = pymongo.MongoClient("mongodb+srv://***")
 mongoclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db = mongoclient["mp_ads_scraper"]
 
