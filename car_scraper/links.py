@@ -10,7 +10,7 @@ from datetime import datetime
 base_dir = os.path.dirname(os.path.abspath(__file__))
 reget_category_flag = True
 # mongodb setting
-# mongoclient = pymongo.MongoClient("mongodb+srv://Mycle:Piterpiter@cluster0-dqqoe.mongodb.net/test?retryWrites=true&w=majority")
+# mongoclient = pymongo.MongoClient("***")
 mongoclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db = mongoclient["mp_car_scraper"]
 
