@@ -10,8 +10,8 @@ import requests
 import threading
 import subprocess
 
-#mongoclient = pymongo.MongoClient("mongodb+srv://Mycle:Piterpiter@cluster0-dqqoe.mongodb.net/test?retryWrites=true&w=majority")
-# mongoclient = pymongo.MongoClient("mongodb+srv://LiSun:akfdj0603@cluster0-uioxu.mongodb.net/marktplaats?retryWrites=true&w=majority")
+#mongoclient = pymongo.MongoClient("mongodb+srv://***")
+# mongoclient = pymongo.MongoClient("mongodb+srv://***")
 mongoclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db = mongoclient["mp_ads_scraper"]
 
